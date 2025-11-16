@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-norway {
+    @apply bg-cover bg-[url('../img/norway.jpg')];
+  }
+}
